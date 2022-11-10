@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container0 {
+  background-position: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container1 {
+  background-image: url("../../images/home/01.jpg");
+}
+
+.container2 {
+  background-image: url("../../images/home/03.jpg");
+}
+
+.container3 {
+  background-image: url("../../images/home/02.gif");
+}
+
+.container4 {
+  background-image: url("../../images/home/04.jpg");
+}
+
+header .navBarMargin {
+  margin-left: -10px;
+}
+
+header a {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header img {
+  width: 240px;
+}
+
+.container-text {
+  padding-top: 200px;
+}
+
+.container-text #button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.arrowDown {
+  width: 90px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.footer {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 12px;
+}
+
+.footer span {
+  color: #555252;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Pagina 2 */
+.container5 {
+  background-image: url("../../images/falcon9/01.jpg");
+}
+
+.container6 {
+  background-image: url("../../images/falcon9/02.jpg");
+}
+
+.container7 {
+  background-image: url("../../images/falcon9/03.jpg");
+}
+
+.container13 {
+  background-image: url("../../images/falcon9/04.jpg");
+}
+
+.container14 {
+  background-image: url("../../images/falcon9/05.jpg");
+}
+
+.container15 {
+  background-image: url("../../images/falcon9/06.jpg");
+}
+
+.container16 {
+  background-image: url("../../images/falcon9/07.jpg");
+}
+
+.container17 {
+  background-image: url("../../images/falcon9/08.jpg");
+}
+
+.container18 {
+  background-image: url("../../images/falcon9/09.jpg");
+}
+
+.container19 {
+  background-image: url("../../images/falcon9/10.jpg");
+}
+
+.container20 {
+  background-image: url("../../images/falcon9/11.jpg");
+}
+
+.container21 {
+  background-image: url("../../images/falcon9/12.jpg");
+}
+
+.container22 {
+  background-image: url("../../images/falcon9/13.jpg");
+}
+
+.container23 {
+  background-image: url("../../images/falcon9/14.jpg");
+}
+
+.containerFalcon {
+  padding: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFalcon h1 {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.containerFalcon p {
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.falconText {
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.falconText h1 {
+  color: white;
+  font-size: 100px;
+}
+
+.falconText p {
+  color: white;
+  font-size: 20px;
+}
+
+.containerLeftFalcon {
+  min-height: 100vh;
+  max-width: 30%;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerLeftFalcon p {
+  text-align: justify;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.containerCarroselFalcon {
+  min-height: 100vh;
+  max-width: 30%;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerCarroselFalconMerlin {
+  min-height: 100vh;
+  max-width: 30%;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerCarroselFalconMerlin p:nth-last-child(2) {
+  text-align: justify;
+}
+
+.tableColor {
+  color: white;
+}
+
+.carousel-caption p {
+  background-color: black;
+}
+
+/* Pagina 3 */
+.container8 {
+  background-image: url("../../images/humanFlight/01.jpg");
+}
+
+.container9 {
+  background-image: url("../images/humanFlight/02.jpg");
+}
+
+.container10 {
+  background-image: url("../images/humanFlight/03.jpg");
+}
+
+.container11 {
+  background-image: url("../images/humanFlight/04.jpg");
+}
+
+.container12 {
+  background-image: url("../images/humanFlight/05.jpg");
+}
+
+.container1space {
+  padding-top: 262px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1space h1 {
+  font-size: 120px;
+}
+
+.container1space p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.container1space img {
+  width: 130px;
+}
+
+.spaceText {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.spaceP {
+  min-height: 25vh;
+  padding: 40px 0px;
+}
+
+.spaceText p {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.spaceP a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+
+.spaceP a:hover {
+  color: white;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.dlwDesc {
+  background-color: black;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.dlwDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.dlwDesc a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+
+.dlwDesc a:hover {
+  color: white;
+}
+
+@media (max-width: 1182px) {
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .container1space h1 {
+    font-size: 40px;
+  }
+  .container1space p {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .titleSection {
+    font-size: 30px;
+  }
+  .containerRightContent {
+    margin-left: 55%;
+    padding-top: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+    padding-top: 15%;
+  }
+  .containerLeftContent, .containerRightContent p {
+    max-width: 60%;
+  }
+  .falconText {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+  }
+  .falconText h1 {
+    color: white;
+    font-size: 50px;
+  }
+  .falconText p {
+    color: white;
+    font-size: 15px;
+  }
+  .containerLeftFalcon {
+    min-height: 100vh;
+    max-width: 50%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerLeftFalcon p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .containerCarroselFalcon {
+    min-height: 100vh;
+    max-width: 50%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerCarroselFalconMerlin {
+    min-height: 100vh;
+    max-width: 45%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 575px) {
+  .dlwDesc button {
+    border: 2px solid white;
+    margin-top: 10px;
+  }
+  .containerFalcon h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .containerFalcon p {
+    margin-bottom: 50px;
+    font-size: 15px;
+  }
+  .falconText {
+    height: 35vh;
+    display: block;
+  }
+  .containerLeftFalcon {
+    min-height: 100vh;
+    min-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerLeftFalcon p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .containerCarroselFalcon {
+    min-height: 100vh;
+    min-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerCarroselFalconMerlin {
+    min-height: 100vh;
+    min-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .spaceText p {
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 95%;
+  }
+  .containerRightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 15%;
+  }
+  .containerRightContent p {
+    text-align: center;
+  }
+  .containerLeftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 15%;
+  }
+  .containerLeftContent p {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
