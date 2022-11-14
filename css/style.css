@@ -409,6 +409,9 @@ header img {
     border: 2px solid white;
     margin-top: 10px;
   }
+  .container1, .container2, .container3, .container4 {
+    text-align: center;
+  }
   .containerFalcon h1 {
     font-size: 40px;
     font-weight: bold;
@@ -474,7 +477,7 @@ header img {
     margin: 0 auto;
     padding-top: 15%;
   }
-  .containerLeftContent p {
+  .containerLeftContent p, h2 {
     text-align: center;
   }
 }

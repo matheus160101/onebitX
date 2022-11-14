@@ -439,6 +439,10 @@ header img{
 
   }
 
+  .container1, .container2, .container3, .container4{
+    text-align: center;
+  }
+
   //Pagina 2
 
   .containerFalcon h1{
@@ -523,7 +527,7 @@ header img{
   padding-top: 15%;
 }
 
-.containerLeftContent p{
+.containerLeftContent p, h2{
   text-align: center;
 }
 
